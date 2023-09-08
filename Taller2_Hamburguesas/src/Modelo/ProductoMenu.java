@@ -9,7 +9,7 @@ public class ProductoMenu implements Producto {
         this.precioBase = precioBase;
     }
 
-    @Override // Implementando el método getNombre() de la interfaz Producto
+    // Implementando el método getNombre() de la interfaz Producto
     public String getNombre() {
         return nombre;
     }
@@ -18,7 +18,7 @@ public class ProductoMenu implements Producto {
         return precioBase;
     }
 
-    @Override // Implementando el método getPrecio() de la interfaz Producto
+    // Implementando el método getPrecio() de la interfaz Producto
     public int getPrecio() {
         return precioBase;
     }
